@@ -1,68 +1,257 @@
-Meu blog tech
-Vou compartilhar conhecimentos sobre tecnologia e programação.
+🐱 Meu Blog dos Gatos
 
-Logotipo conceitual de tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de Wi-Fi, circuitos e lâmpada de ideia. Cores em tons de azul e branco.
-Meu primeiro post
-Por: Marcelo Paludetto
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog dos Gatos</title>
 
-Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
 
-❤️ 0 👍 0
-Ilustração do planeta Terra cercado por elementos digitais, representando a conectividade global e a tecnologia.
-A quantidade de dados no mundo é surreal
-Por: Marcelo Paludetto
+        body {
+            background-color: #f8f3ff;
+            color: #333;
+        }
 
-Estima-se que 90% de todos os dados existentes no mundo hoje foram gerados apenas nos últimos dois anos. Vivemos em uma verdadeira explosão de informação que não para de acelerar.
+        header {
+            background: linear-gradient(135deg, #8e6bbd, #c39bd3);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
 
-Fonte: Jornal Opção
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
 
-❤️ 0 👍 0
-Ilustração de uma caixa de madeira com tampa e encaixe, representando armazenamento ou organização.
-O primeiro mouse não era de plástico
-Por: Giulliana Cestari
+        header p {
+            font-size: 18px;
+        }
 
-Antes do design ergonômico e das luzes RGB, o primeiro mouse do mundo foi construído em madeira! Criado por Douglas Engelbart em 1964, ele tinha o formato de uma caixa quadrada e apenas um botão.
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
 
-Fonte: TecMundo
+        .post {
+            background-color: white;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
 
-❤️ 0 👍 0
-Ilustração de dentes com coloração azul apresentando cáries, rachaduras e manchas próximas à gengiva.
-Por que o Bluetooth se chama assim?
-Por: Giulliana Cestari
+        .post img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
 
-O nome é uma homenagem ao rei viking Harald Blatand Gormsson, que unificou tribos da Escandinávia. Seu apelido era Harald "Bluetooth" porque seus dentes eram tão podres que tinham uma coloração azul escura.
+        .post-content {
+            padding: 25px;
+        }
 
-Fonte: TechTudo
+        .post h2 {
+            color: #76539d;
+            margin-bottom: 10px;
+        }
 
-❤️ 0 👍 0
-Ilustração de uma mariposa com asas abertas em tons de marrom, com padrões circulares nas asas.
-O "Bug" que era um bicho de verdade
-Por: Giulliana Cestari
+        .author {
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
 
-O termo "bug" (inseto) para erros de software ficou famoso em 1947, quando engenheiros encontraram uma mariposa real presa dentro do computador Harvard Mark II, causando uma falha no sistema.
+        .post p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
 
-Fonte: Educa Mais Brasil
+        .interactions {
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+            color: #777;
+        }
 
-❤️ 0 👍 0
-Ilustração de uma câmera em tripé ao lado de uma cafeteira preparando café.
-A primeira webcam servia para vigiar café
-Por: Giulliana Cestari
+        footer {
+            background-color: #76539d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
 
-Em 1991, pesquisadores da Universidade de Cambridge criaram a primeira webcam para não perderem tempo indo até a cozinha e encontrando a cafeteira vazia. Eles monitoravam o nível do café em tempo real nos seus monitores.
+<body>
 
-Fonte: BBC
+    <header>
+        <h1>🐱 Meu Blog dos Gatos</h1>
+        <p>Curiosidades, cuidados e tudo sobre o mundo dos gatos!</p>
+    </header>
 
-❤️ 0 👍 0
-Ilustração de uma máquina sobre uma fita com números e símbolos, representando o processamento de dados.
-O primeiro computador não foi a máquina de Turing?
-Por: Felipe Gibertoni
+    <main class="container">
 
-Apesar de Alan Turing ser conhecido como pai da computação, ele não criou o primeiro computador. Entre os primeiros computadores, um deles foi chamado Colossus projetado por Tommy Flowers durante a Segunda Guerra Mundial e também, praticamente na mesma época, o ENIAC foi projetado por J. Presper Eckert e John Mauchly.
+        <!-- POST 1 -->
+        <article class="post">
+            <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1000&q=80">
 
-Embora o Colossus tenha funcionado antes como um "herói de guerra" especializado, o ENIAC é frequentemente chamado de "pai" por ser o primeiro programável de uso geral.
+            <div class="post-content">
+                <h2>🐾 Meu primeiro post</h2>
 
-E aí, qual você consideraria como o primeiro computador?
+                <div class="author">
+                    Por: Marcelo Paludetto
+                </div>
 
-Fonte: The National Museum of Computing
+                <p>
+                    Bem-vindos ao meu novo blog! Aqui vou compartilhar
+                    curiosidades, dicas e informações interessantes sobre
+                    gatos e o mundo felino.
+                </p>
 
-❤️ 0 👍 0
+                <div class="interactions">
+                    ❤️ 0 &nbsp;&nbsp; 👍 0
+                </div>
+            </div>
+        </article>
+
+
+        <!-- POST 2 -->
+        <article class="post">
+            <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=1000&q=80">
+
+            <div class="post-content">
+                <h2>😺 Por que os gatos ronronam?</h2>
+
+                <div class="author">
+                    Por: Giulliana Cestari
+                </div>
+
+                <p>
+                    O ronronar é um dos sons mais conhecidos dos gatos.
+                    Eles podem ronronar quando estão tranquilos, mas também
+                    podem fazer isso em situações de estresse ou desconforto.
+                </p>
+
+                <div class="interactions">
+                    ❤️ 0 &nbsp;&nbsp; 👍 0
+                </div>
+            </div>
+        </article>
+
+
+        <!-- POST 3 -->
+        <article class="post">
+            <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=1000&q=80">
+
+            <div class="post-content">
+                <h2>🐈 Gatos realmente caem sempre em pé?</h2>
+
+                <div class="author">
+                    Por: Giulliana Cestari
+                </div>
+
+                <p>
+                    Os gatos possuem um excelente senso de equilíbrio e
+                    conseguem girar o corpo durante uma queda. Porém,
+                    isso não significa que estejam sempre seguros ao cair.
+                    Por isso, é importante manter janelas e sacadas protegidas.
+                </p>
+
+                <div class="interactions">
+                    ❤️ 0 &nbsp;&nbsp; 👍 0
+                </div>
+            </div>
+        </article>
+
+
+        <!-- POST 4 -->
+        <article class="post">
+            <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=1000&q=80">
+
+            <div class="post-content">
+                <h2>🐱 Por que os gatos dormem tanto?</h2>
+
+                <div class="author">
+                    Por: Giulliana Cestari
+                </div>
+
+                <p>
+                    Gatos costumam passar muitas horas dormindo ou descansando.
+                    O sono ajuda na recuperação do organismo e é especialmente
+                    importante para filhotes e gatos jovens.
+                </p>
+
+                <div class="interactions">
+                    ❤️ 0 &nbsp;&nbsp; 👍 0
+                </div>
+            </div>
+        </article>
+
+
+        <!-- POST 5 -->
+        <article class="post">
+            <img src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=1000&q=80">
+
+            <div class="post-content">
+                <h2>🐾 Curiosidades sobre os bigodes dos gatos</h2>
+
+                <div class="author">
+                    Por: Giulliana Cestari
+                </div>
+
+                <p>
+                    Os bigodes dos gatos não servem apenas para deixar o
+                    rosto mais bonito. Eles ajudam os gatos a perceber
+                    objetos próximos e a entender melhor o ambiente ao seu redor.
+                </p>
+
+                <div class="interactions">
+                    ❤️ 0 &nbsp;&nbsp; 👍 0
+                </div>
+            </div>
+        </article>
+
+
+        <!-- POST 6 -->
+        <article class="post">
+            <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?auto=format&fit=crop&w=1000&q=80">
+
+            <div class="post-content">
+                <h2>🏠 Como deixar sua casa mais divertida para um gato?</h2>
+
+                <div class="author">
+                    Por: Felipe Gibertoni
+                </div>
+
+                <p>
+                    Brinquedos, arranhadores, esconderijos e lugares seguros
+                    para subir podem deixar o ambiente mais interessante para
+                    os gatos. Também é importante reservar momentos para brincar
+                    e interagir com eles.
+                </p>
+
+                <div class="interactions">
+                    ❤️ 0 &nbsp;&nbsp; 👍 0
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>🐾 Meu Blog dos Gatos © 2026</p>
+        <p>Feito com ❤️ para quem ama gatos!</p>
+    </footer>
+
+</body>
+                  </html>
